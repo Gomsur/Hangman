@@ -4,7 +4,7 @@ word_list = [
     'finland',
     'denmark',
     'russia',
-    'german',
+    'germany',
     'spain',
     'france',
     'greece',

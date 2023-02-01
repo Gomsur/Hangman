@@ -1,7 +1,7 @@
 word_list = [
     'dog',
     'zebra',
-    'giraf',
+    'giraff',
     'tiger',
     'elephant',
     'rhino',

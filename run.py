@@ -21,5 +21,11 @@ class gamesetting:
         else:
         self.food()
 
+    def animals(self):
+        """
+        Gets a random word from animals.py and returns it in capitalized letters
+        """
+        self.word = (random.choice animals).upper()
+
 
 def get_animal

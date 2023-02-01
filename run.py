@@ -14,7 +14,7 @@ class text_colors:
     WHITE = '\033[0m
 
 
-class gamesetting:
+class game_setting:
     """
     Choose game category
     """
@@ -68,3 +68,6 @@ def intro_logo():
 """
         + text_colors.WHITE
     )                 
+
+
+def play(game_setting):

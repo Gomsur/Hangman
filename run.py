@@ -23,7 +23,7 @@ class game_setting:
         self.hidden = ""
         if word == "animals":
             self.animals()
-        else if == "country":
+        elif == "country":
         self.country()
         else:
         self.food()
@@ -71,3 +71,27 @@ def intro_logo():
 
 
 def play(game_setting):
+    """
+    Display a word for each turn, this will continue to run until the user guesses the correct word or runs out of lives.
+    """
+    word_completion = game_setting.hidden
+    guessed = False
+    guessed_letters = []
+    guessed_words = []
+    tries = game_setting.lives
+
+    print(game_setting.word)
+
+    print(display_hangman(tries))
+    print(word_completion)
+    print(" \n ")
+    while not guessed and tries > 0:
+        guess = input("Please guess a letter").upper()
+        if len(guess) == 1 and guess.isalpha():
+            if guess in guessed_letters:
+                print("Sorry, you have already guessed that letter.", guess)
+            elif guess not in game_setting.word:
+                print(guess, "Incorrect, try again!")
+                tries -= 1
+                guessed_letters.append(guess)
+                

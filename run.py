@@ -94,4 +94,30 @@ def play(game_setting):
                 print(guess, "Incorrect, try again!")
                 tries -= 1
                 guessed_letters.append(guess)
-                
+            else:
+                print("Well done!", guess, "is correct")
+                guessed_letters.append(guess)
+                word_as_list = list(word_completion)
+                indices = [
+                    i for i, letter in enumerate(game_setting.word)
+                    if letter == guess
+                ]
+                for index in indices:
+                    word_as_list[index] = guess
+                word_completion = "".join(word_as_list)
+                if "_" not in word_completion:
+                    guessed = True
+        elif len(guess) == len(gma_setting.word) and guess.isalpha():
+            if guess in guessed_words:
+                print("You have already guessed this", guess)
+            elif guess != game_settings.word:
+                print(guess, "That is not correct.")
+                tries -= 1
+                guessed_words.append(guess)
+        elif len(guess) != len(game_setting.word):
+            print("That is not the correct amount of letters")
+        else:
+            guessed = True
+            word_completion =game_setting.word
+
+    

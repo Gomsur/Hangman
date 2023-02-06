@@ -120,4 +120,20 @@ def play(game_setting):
             guessed = True
             word_completion =game_setting.word
 
+        print("Nope! Please enter a letter!")
+        print(display_hangman(tries))
+        print(word_completion)
+        print(f"There is {len(game_setting.word)} letters in this word")
+        print("\n")
+    if guessed:
+        win_game()
+    else:
+        print(
+            "Sorry, no more tries! The correct word were "
+            + game_setting.word
+            + "\n You will get it next time!"
+        )    
+        lose_game()
+        
+
     

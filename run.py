@@ -30,21 +30,21 @@ class game_setting:
 
     def animals(self):
         """
-        Gets a random word from animals.py and returns it in capitalized letters
+        Gets a random word from animals.py and returns it capitalized
         """
         self.word = random.choice(animals_word).upper()
         self.hidden = "_" * len(self.word)
 
     def food(self):
         """
-        Gets a random word from food.py and returns it in capitalized letters
+        Gets a random word from food.py and returns it capitalized
         """
         self.word = random.choice(food_word).upper()
         self.hidden = "_" * len(self.word)
 
     def country(self):
         """
-        Gets a random word from country.py and returns it in capitalizede letters
+        Gets a random word from country.py and returns it capitalizede
         """
         self.word = random.choice(country_word).upper()
         self.hidden = "_" * len(self.word)
@@ -258,6 +258,7 @@ def win_game():
         + text_colors.WHITE
     )
 
+
 def lose_game():
     """
     Displays the the user loses the game
@@ -274,6 +275,7 @@ def lose_game():
     """
     + text_colors.WHITE
     )
+
 
 def select_difficulty():
     """ Selects the word that you want to play """
@@ -301,6 +303,7 @@ def select_difficulty():
         else:
             print(difficulty, "is not a category")
 
+
 def main():
     """ Whenever you win, lose or start the game.
     This setting resets and starts the game """
@@ -311,12 +314,13 @@ def main():
     print(game_instance.lives, game_instance.hidden)
     play(game_instance)
     while (
-        input("Play again? Enter 'Y' for YES \ n or any other letter for NO").upper()
+        input("Play again? 'Y' for YES \ any other letter for NO").upper()
         == "Y"
     ):
     
     game_instance = select_difficulty()
     play(game_instance)
+
 
 if __name__ =="__main__":
     main()

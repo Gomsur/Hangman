@@ -78,7 +78,7 @@ def play(game_setting):
     guessed = False
     guessed_letters = []
     guessed_words = []
-    tries = game_setting.lives
+    tries = 8
 
     print(game_setting.word)
 
@@ -324,7 +324,44 @@ def select_difficulty():
         difficulty = input(
             """ Please select a word type """
         ).upper()
-        if difficulty 
+        if difficulty == "E":
+            print("You have chosen animals. You have ", tries, "tries.")
+            difficulty_selected = True
+            player = game_setting("animals")
+            return player
+        elif difficulty = "M":
+                print("You chose countries. You have", tries, "tries")
+                difficulty_selected = True
+                player = game_setting("country")
+                return player
+        elif difficulty == "H":
+            print("You chose food. You have", tries, "tries")
+            diffuclty_selected = True
+            player = game_setting("food")
+            return player
+        else:
+            print(difficulty, "is not a category")
+
+def main():
+    """ Whenever you win, lose or start the game.
+    This setting resets and starts the game """
+
+    intro_logo()
+    game_instance = select_difficulty()
+
+    print(game_instance.lives, game_instance.hidden)
+    play(game_instance)
+    while (
+        input("Play again? Enter 'Y' for YES \ n or any other letter for NO").upper()
+        == "Y"
+    ):
+    
+    game_instance = select_difficulty()
+    play(game_instance)
+
+if __name__ =="__main__":
+    main()
+
 
         
 

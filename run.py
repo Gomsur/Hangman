@@ -317,9 +317,8 @@ def main():
         input("Play again? 'Y' for YES \ any other letter for NO").upper()
         == "Y"
     ):
-
-    game_instance = select_difficulty()
-    play(game_instance)
+        game_instance = select_difficulty()
+        play(game_instance)
 
 
 if __name__ == "__main__":

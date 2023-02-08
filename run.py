@@ -11,7 +11,7 @@ class text_colors:
     BLUE = '\033[38;5;159m'
     GREEN = '\033[92m'
     RED = '\033[91m'
-    WHITE = '\033[0m
+    WHITE = '\033[0m'
 
 
 class game_setting:

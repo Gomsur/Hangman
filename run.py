@@ -316,6 +316,15 @@ def lose_game():
     + text_colors.WHITE
     )
 
+def select_difficulty():
+    """ Selects the word that you want to play """
+
+    difficulty_selected = False
+    while difficulty_selected is False:
+        difficulty = input(
+            """ Please select a word type """
+        ).upper()
+        if difficulty 
 
         
 

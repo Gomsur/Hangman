@@ -299,6 +299,22 @@ def win_game():
     +text_colors.WHITE
     )
 
+def lose_game():
+    """
+    Displays the the user loses the game
+    """
+    print(
+        text_colors.WHITE
+        + """
+ __     __           _
+ \ \   / /          | |
+  \ \_/ /__  _   _  | | ___  ___  ___
+   \   / _ \| | | | | |/ _ \/ __|/ _ \
+    | | (_) | |_| | | | (_) \__ \  __/
+    |_|\___/ \__,_| |_|\___/|___/\___|
+    """
+    + text_colors.WHITE
+    )
 
 
         

@@ -33,6 +33,5 @@ word_list = [
     'butterfly',
     'grasshopper',
     'cockroach',
-    
 
 ]

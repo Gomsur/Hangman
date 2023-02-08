@@ -59,20 +59,21 @@ def intro_logo():
         + """ Welcome to
   _    _
  | |  | |
- | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __ 
- |  __  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+ | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __
+ |  __  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \
  | |  | | (_| | | | | (_| | | | | | | (_| | | | |
  |_|  |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                       __/ |
                      |___/
 """
         + text_colors.WHITE
-    )                 
+    )
 
 
 def play(game_setting):
     """
-    Display a word for each turn, this will continue to run until the user guesses the correct word or runs out of lives.
+    Display a word for each turn, this will continue to run until the user
+    guesses the correct word or runs out of lives.
     """
     word_completion = game_setting.hidden
     guessed = False
@@ -118,7 +119,7 @@ def play(game_setting):
             print("That is not the correct amount of letters")
         else:
             guessed = True
-            word_completion =game_setting.word
+            word_completion = game_setting.word
 
         print("Nope! Please enter a letter!")
         print(display_hangman(tries))
@@ -132,8 +133,10 @@ def play(game_setting):
             "Sorry, no more tries! The correct word were "
             + game_setting.word
             + "\n You will get it next time!"
-        )    
+        )
         lose_game()
+
+
 def display_hangman(tries):
     """
     Display Hangman figures depending on life

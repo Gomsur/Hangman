@@ -23,10 +23,10 @@ class game_setting:
         self.hidden = ""
         if word == "animals":
             self.animals()
-        elif == "country":
-        self.country()
+        elif word == "country":
+            self.country()
         else:
-        self.food()
+            self.food()
 
     def animals(self):
         """

@@ -286,17 +286,17 @@ def select_difficulty():
             """ Please select a word type """
         ).upper()
         if difficulty == "E":
-            print("You have chosen animals. You have ", tries, "tries.")
+            print("You have chosen animals. You have 8 tries")
             difficulty_selected = True
             player = game_setting("animals")
             return player
         elif difficulty == "M":
-                print("You chose countries. You have", tries, "tries")
+                print("You chose countries. You have 8 tries")
                 difficulty_selected = True
                 player = game_setting("country")
                 return player
         elif difficulty == "H":
-            print("You chose food. You have", tries, "tries")
+            print("You chose food. You have 8 tries")
             diffuclty_selected = True
             player = game_setting("food")
             return player

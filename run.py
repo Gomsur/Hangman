@@ -268,7 +268,7 @@ def lose_game():
  __     __           _
  \ \   / /          | |
   \ \_/ /__  _   _  | | ___  ___  ___
-   \   / _ \| | | | | |/ _ \/ __|/ _ \
+   \   / _ \| | | | | |/ _ \/ __|/ _ \ 
     | | (_) | |_| | | | (_) \__ \  __/
     |_|\___/ \__,_| |_|\___/|___/\___|
     """
@@ -283,7 +283,7 @@ def select_difficulty():
     while difficulty_selected is False:
         difficulty = input(
             """ Please select a word category
-            A = Animals, C = Country, F = Food 
+            A = Animals, C = Country, F = Food
             You will then recieve a word based on the category you chose """
         ).upper()
         if difficulty == "A":

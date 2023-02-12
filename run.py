@@ -283,19 +283,21 @@ def select_difficulty():
     difficulty_selected = False
     while difficulty_selected is False:
         difficulty = input(
-            """ Please select a word type """
+            """ Please select a word category
+            A = Animals, C = Country, F = Food 
+            You will then recieve a word based on the category you chose """
         ).upper()
-        if difficulty == "E":
+        if difficulty == "A":
             print("You have chosen animals. You have 8 tries")
             difficulty_selected = True
             player = game_setting("animals")
             return player
-        elif difficulty == "M":
+        elif difficulty == "C":
                 print("You chose countries. You have 8 tries")
                 difficulty_selected = True
                 player = game_setting("country")
                 return player
-        elif difficulty == "H":
+        elif difficulty == "F":
             print("You chose food. You have 8 tries")
             diffuclty_selected = True
             player = game_setting("food")

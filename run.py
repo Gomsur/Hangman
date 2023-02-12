@@ -238,7 +238,7 @@ def win_game():
     Displays when the user completes the game
     """
     print(
-        text.colors.BLUE
+        text_colors.BLUE
         + """ Congratulations, you completed the game!
    _____                            _         _       _   _                 _
   / ____|                          | |       | |     | | (_)               | |
@@ -298,7 +298,7 @@ def select_difficulty():
             return player
         elif difficulty == "F":
             print("You chose food. You have 8 tries")
-            diffuclty_selected = True
+            difficulty_selected = True
             player = game_setting("food")
             return player
         else:

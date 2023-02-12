@@ -6,7 +6,7 @@ from food import word_list as food_word
 
 class text_colors:
     """
-    adds different color to wining and end screen and intro.
+    adds different color to winning, end screen and introduction.
     """
     BLUE = '\033[38;5;159m'
     GREEN = '\033[92m'
@@ -80,8 +80,6 @@ def play(game_setting):
     guessed_words = []
     tries = 8
 
-    print(game_setting.word)
-
     print(display_hangman(tries))
     print(word_completion)
     print(" \n ")
@@ -120,7 +118,7 @@ def play(game_setting):
             guessed = True
             word_completion = game_setting.word
 
-        print("Nope! Please enter a letter!")
+        print("Nope! Please enter another letter!")
         print(display_hangman(tries))
         print(word_completion)
         print(f"There is {len(game_setting.word)} letters in this word")

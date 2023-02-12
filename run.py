@@ -290,7 +290,7 @@ def select_difficulty():
             difficulty_selected = True
             player = game_setting("animals")
             return player
-        elif difficulty = "M":
+        elif difficulty == "M":
                 print("You chose countries. You have", tries, "tries")
                 difficulty_selected = True
                 player = game_setting("country")

@@ -108,7 +108,7 @@ def play(game_setting):
                 word_completion = "".join(word_as_list)
                 if "_" not in word_completion:
                     guessed = True
-        elif len(guess) == len(gma_setting.word) and guess.isalpha():
+        elif len(guess) == len(game_setting.word) and guess.isalpha():
             if guess in guessed_words:
                 print("You have already guessed this", guess)
             elif guess != game_settings.word:

@@ -18,12 +18,11 @@ class game_setting:
     """
     Choose game category
     """
-    def __init__(self, lives, words):
-        self.lives = lives
+    def __init__(self, words):
         self.hidden = ""
-        if word == "animals":
+        if words == "animals":
             self.animals()
-        elif word == "country":
+        elif words == "country":
             self.country()
         else:
             self.food()
@@ -111,7 +110,7 @@ def play(game_setting):
         elif len(guess) == len(game_setting.word) and guess.isalpha():
             if guess in guessed_words:
                 print("You have already guessed this", guess)
-            elif guess != game_settings.word:
+            elif guess != game_setting.word:
                 print(guess, "That is not correct.")
                 tries -= 1
                 guessed_words.append(guess)
@@ -293,10 +292,10 @@ def select_difficulty():
             player = game_setting("animals")
             return player
         elif difficulty == "C":
-                print("You chose countries. You have 8 tries")
-                difficulty_selected = True
-                player = game_setting("country")
-                return player
+            print("You chose countries. You have 8 tries")
+            difficulty_selected = True
+            player = game_setting("country")
+            return player
         elif difficulty == "F":
             print("You chose food. You have 8 tries")
             diffuclty_selected = True
@@ -313,7 +312,7 @@ def main():
     intro_logo()
     game_instance = select_difficulty()
 
-    print(game_instance.lives, game_instance.hidden)
+    print(game_instance.hidden)
     play(game_instance)
     while (
         input("Play again? 'Y' for YES \ any other letter for NO").upper()

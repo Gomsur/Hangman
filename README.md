@@ -29,3 +29,24 @@ The deployment terminal is set to 80 columns by 24 rows. That means that each li
 
 -----
 Happy coding!
+
+
+# Hangman
+
+Hangman is a nostalgic game created for the user who likes clever games.
+In the beginning of the game, the user will be able to select a word category of their choice.
+Based on their choice, they will get an animal word, a country or some kind of food word.
+
+## Site Owner Goals
+
+- Providing the user with a fun nostalgic game
+- Giving the user different word categories to choose from
+- Give the end user a game functionality that lets them play the game again
+
+## User Stories
+- ### First Time User
+- As a first time user I want the user to easily choose different categories
+- As a first time user I want the user to get a hint of how many letters is in the word
+- As a first time user I want the user to be given a play again option
+
+- ### Returning User

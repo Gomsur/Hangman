@@ -60,7 +60,7 @@ If a user enters any other letters, the game should not start as it requires a c
 
 - Line 271 have the same bug as mentioned above and needs a space after to be shown correctly.
 
-- Invalid escape sequence, this error is due to my logos and cant be fixed.
+- Invalid escape sequence, these are more warnings from the python validation, complaining about anonomouys backlash in string, which can not be resolved on fixed without breaking the logo.
 
 ## Technologies
 ### Languages

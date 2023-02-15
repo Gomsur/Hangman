@@ -33,20 +33,51 @@ Happy coding!
 
 # Hangman
 
-Hangman is a nostalgic game created for the user who likes clever games.
-In the beginning of the game, the user will be able to select a word category of their choice.
-Based on their choice, they will get an animal word, a country or some kind of food word.
+## Introduction
+Hangman is a classic game that puts your brain to work.
+In this nostalgic game the user decides which category they would like to play.
+When the user chose a category the game begins and the user gets 8 tries of guessing the correct word.
+If the user guess a word incorrect, the stickman starts getting filled out.
+The game ends with either a full stickman which would be a loss, or if the user guesses the correct word before the stickman gets hung.
 
-## Site Owner Goals
+## Planning stage
+### Target Audience
+- A game for all ages
+- English speaking/writing users
+- Users who want a nostalgic touch of gaming
 
-- Providing the user with a fun nostalgic game
-- Giving the user different word categories to choose from
-- Give the end user a game functionality that lets them play the game again
+### User Stories
+- As a user I want to choose between different word categories
+- As a user I want to see how many letters the word includes
+- As a user I want the game to be re-playable if lost
+- As a user I want to get an introduction of how many lives I have
+- As a user I want to count the hangman parts to calculate how many tries I have left
 
-## User Stories
-- ### First Time User
-- As a first time user I want the user to easily choose different categories
-- As a first time user I want the user to get a hint of how many letters is in the word
-- As a first time user I want the user to be given a play again option
+### Site aims
+- Providing a nostalgic runnable game
+- Giving the user a choice of categories based on their interest
+- 
 
-- ### Returning User
+### Page Layout
+
+## Game walkthrough
+
+## Testing phase
+
+### Manual Testing
+
+### Bugs
+
+## Technologies
+### Languages
+
+### Developing eviroment
+
+### Packages 
+
+### Other
+
+## Deployment
+
+## Credits
+

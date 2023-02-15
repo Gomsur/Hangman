@@ -110,6 +110,19 @@ If a user enters any other letters, the game should not start as it requires a c
 - [patrojk] Used for logo design
 
 ## Deployment
+- Everything is git pushed as much as possible.
+- Created account on Heroku
+- Added credits to my Heroku account to set up account
+- Created a new app on Heroku
+- Chose the name Hangman for my project and selected Europe as region
+- Went to settings to sort out the buildpacks and node parts.
+- Deployed my project and link to GitHub repository
+- Heroku searched through my code and uploaded it
+- Enable automatic deployes
+- Opened the game in Heroku to check that everything runs as intended.
 
 ## Credits
-
+- A big shoutout to a good friend of mine, Fredrik who is a student on Code Institute and have been a good helping hand on this project.
+- A big shoutout to Bethieieio who I took inspiration from for this project [Bethieieio] (https://github.com/Bethieieio/project-three-console-hangman/blob/main/run.py)
+- A big shoutout to gibbio101 who I got the color inspiration from to my Hangman game [gibbi101] (https://github.com/gibbo101/hangman/blob/main/run.py)
+- A big shoutout to my mentor Antonio for always being there for me whenever I got stuck on parts, providing me with tips and tricks throughout everything.

@@ -24,7 +24,5 @@ word_list = [
     'brazil',
     'chile',
     'colombia',
-    'iceland',
-    
-    
+    'iceland'
 ]

@@ -32,6 +32,5 @@ word_list = [
     'jellyfish',
     'butterfly',
     'grasshopper',
-    'cockroach',
-
+    'cockroach'
 ]

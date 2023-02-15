@@ -4,8 +4,10 @@
 Hangman is a classic game that puts your brain to work.
 In this nostalgic game the user decides which category they would like to play.
 When the user chose a category the game begins and the user gets 8 tries of guessing the correct word.
-If the user guess a word incorrect, the stickman starts getting filled out.
+If the user guess a letter incorrect, the stickman starts getting filled out.
 The game ends with either a full stickman which would be a loss, or if the user guesses the correct word before the stickman gets hung.
+
+Live link to the Hangman game can be found [here](https://gomsur-hangman.herokuapp.com/)
 
 ## Planning stage
 ### Target Audience
@@ -42,8 +44,6 @@ The game then tells the user if the letter is correct or not and will tell the u
 If the letter is correct, it will add it to the word, if not it will tell you to try again.
 
 - If a user guesses a letter that have already been guessed, a life will not be taken but a message will tell them that this letter already have been guessed.
-
--
 
 ## Testing phase
 - The code was tested through [pep8ci](https://pep8ci.herokuapp.com/#) where a couple of problems showed up.

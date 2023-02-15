@@ -48,7 +48,7 @@ The game ends with either a full stickman which would be a loss, or if the user 
 
 ### User Stories
 - As a user I want to choose between different word categories
-- As a user I want to see how many letters the word includes
+- As a user I want to see how many letters are in the word.
 - As a user I want the game to be re-playable if lost
 - As a user I want to get an introduction of how many lives I have
 - As a user I want to count the hangman parts to calculate how many tries I have left
@@ -56,13 +56,30 @@ The game ends with either a full stickman which would be a loss, or if the user 
 ### Site aims
 - Providing a nostalgic runnable game
 - Giving the user a choice of categories based on their interest
-- 
+- Give the user a re-playable game
 
 ### Page Layout
+Page is on a mock terminal deployed on [Heroku] and connected through [GitHub]
+The user provides a letter and press enter to submit.
 
 ## Game walkthrough
+- The start of the game is kept simple with instructions on how to choose a word category, logo to catch the attention of the user which was built with [patorjk]
+
+- The game is asking you to choose between 3 different categories
+- Animals = A
+- Food = F
+- Countries = C
+
+- The user starts by entering a letter of their choice/guess.
+The game then tells the user if the letter is correct or not and will tell the user how many letters are in the full word.
+If the letter is correct, it will add it to the word, if not it will tell you to try again.
+
+- If a user guesses a letter that have already been guessed, a life will not be taken but a message will tell them that this letter already have been guessed.
+
+-
 
 ## Testing phase
+
 
 ### Manual Testing
 

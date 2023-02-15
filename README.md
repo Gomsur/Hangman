@@ -9,6 +9,8 @@ The game ends with either a full stickman which would be a loss, or if the user 
 
 Live link to the Hangman game can be found [here](https://gomsur-hangman.herokuapp.com/)
 
+![image](assets/img/Intro.png)
+
 ## Planning stage
 ### Target Audience
 - A game for all ages and genders
@@ -44,6 +46,7 @@ The game then tells the user if the letter is correct or not and will tell the u
 If the letter is correct, it will add it to the word, if not it will tell you to try again.
 
 - If a user guesses a letter that have already been guessed, a life will not be taken but a message will tell them that this letter already have been guessed.
+![image](assets/img/You%20have%20already%20guessed%20F.png)
 
 ## Testing phase
 - The code was tested through [pep8ci](https://pep8ci.herokuapp.com/#) where a couple of problems showed up.
@@ -51,16 +54,21 @@ If the letter is correct, it will add it to the word, if not it will tell you to
 ### Manual Testing
 - When you choose a category, the only words that are allowed to use are A, F and C.
 If a user enters any other letters, the game should not start as it requires a category to be chosen.
+![image](assets/img/k%20is%20not%20a%20word.png)
 
 - When a user guesses a word that have already been guessed, the player should not lose a life.
+![image](assets/img/already%20guessed.png)
 
 
 ### Bugs
 - Line 62 have a bug where I need to have a space after the letter for the logo to look good without errors.
+![image](assets/img/62.png)
 
 - Line 269 have the same bug as mentioned above and needs a space after to be shown correctly.
+![image](assets/img/269.png)
 
 - Invalid escape sequence, these are more warnings from the python validation, complaining about anonomouys backlash in string, which can not be resolved on fixed without breaking the logo.
+![image](assets/img/escape%20sequence.png)
 
 ## Technologies
 ### Languages

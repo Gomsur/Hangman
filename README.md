@@ -56,9 +56,9 @@ If a user enters any other letters, the game should not start as it requires a c
 
 
 ### Bugs
-- Line 63 have a bug where I need to have a space after the letter for the logo to look good without errors.
+- Line 62 have a bug where I need to have a space after the letter for the logo to look good without errors.
 
-- Line 271 have the same bug as mentioned above and needs a space after to be shown correctly.
+- Line 269 have the same bug as mentioned above and needs a space after to be shown correctly.
 
 - Invalid escape sequence, these are more warnings from the python validation, complaining about anonomouys backlash in string, which can not be resolved on fixed without breaking the logo.
 

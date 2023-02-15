@@ -1,36 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Gomsur,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
-
-
 # Hangman
 
 ## Introduction
@@ -59,11 +26,11 @@ The game ends with either a full stickman which would be a loss, or if the user 
 - Give the user a re-playable game
 
 ### Page Layout
-Page is on a mock terminal deployed on [Heroku] (https://dashboard.heroku.com/apps) and connected through [GitHub] (https://github.com/)
+Page is on a mock terminal deployed on [Heroku](https://dashboard.heroku.com/apps) and connected through [GitHub](https://github.com/)
 The user provides a letter and press enter to submit.
 
 ## Game walkthrough
-- The start of the game is kept simple with instructions on how to choose a word category, logo to catch the attention of the user which was built with [patorjk] (https://patorjk.com/)
+- The start of the game is kept simple with instructions on how to choose a word category, logo to catch the attention of the user which was built with [patorjk](https://patorjk.com/)
 
 - The game is asking you to choose between 3 different categories
 - Animals = A
@@ -100,14 +67,14 @@ If a user enters any other letters, the game should not start as it requires a c
 - Everything is made out of Python, except the README file
 
 ### Developing eviroment
-- [GitHub] (https://github.com/)
-- [Heroku] (https://dashboard.heroku.com/apps/gomsur-hangman/deploy/github)
+- [GitHub](https://github.com/)
+- [Heroku](https://dashboard.heroku.com/apps/gomsur-hangman/deploy/github)
 
 ### Packages 
-- [pep8ci] (https://pep8ci.herokuapp.com/#) Used for code validation & errors
+- [pep8ci](https://pep8ci.herokuapp.com/#) Used for code validation & errors
 
 ### Other
-- [patrojk] (https://patorjk.com/) Used for logo design
+- [patrojk](https://patorjk.com/) Used for logo design
 
 ## Deployment
 - Everything is git pushed as much as possible.
@@ -123,6 +90,6 @@ If a user enters any other letters, the game should not start as it requires a c
 
 ## Credits
 - A big shoutout to a good friend of mine, Fredrik who is a student on Code Institute and have been a good helping hand on this project.
-- A big shoutout to Bethieieio who I took inspiration from for this project and took parts of the hangman display from [Bethieieio] (https://github.com/Bethieieio/project-three-console-hangman/blob/main/run.py)
-- A big shoutout to gibbio101 who I got the color inspiration from to my Hangman game [gibbi101] (https://github.com/gibbo101/hangman/blob/main/run.py)
+- A big shoutout to Bethieieio who I took inspiration from for this project and took parts of the hangman display from [Bethieieio](https://github.com/Bethieieio/project-three-console-hangman/blob/main/run.py)
+- A big shoutout to gibbio101 who I got the color inspiration from to my Hangman game [gibbi101](https://github.com/gibbo101/hangman/blob/main/run.py)
 - A big shoutout to my mentor Antonio for always being there for me whenever I got stuck on parts, providing me with tips and tricks throughout everything.

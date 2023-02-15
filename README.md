@@ -82,17 +82,32 @@ If the letter is correct, it will add it to the word, if not it will tell you to
 - The code was tested through [pep8ci](https://pep8ci.herokuapp.com/#) where a couple of problems showed up.
 
 ### Manual Testing
+- When you choose a category, the only words that are allowed to use are A, F and C.
+If a user enters any other letters, the game should not start as it requires a category to be chosen.
+
+- When a user guesses a word that have already been guessed, the player should not lose a life.
+
 
 ### Bugs
+- Line 63 have a bug where I need to have a space after the letter for the logo to look good without errors.
+
+- Line 271 have the same bug as mentioned above and needs a space after to be shown correctly.
+
+- Invalid escape sequence, this error is due to my logos and cant be fixed.
 
 ## Technologies
 ### Languages
+- Everything is made out of Python, except the README file
 
 ### Developing eviroment
+- [GitHub]
+- [Heroku]
 
 ### Packages 
+- [pep8ci] for code validation & errors
 
 ### Other
+- [patrojk] Used for logo design
 
 ## Deployment
 

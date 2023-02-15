@@ -79,7 +79,7 @@ If the letter is correct, it will add it to the word, if not it will tell you to
 -
 
 ## Testing phase
-
+- The code was tested through [pep8ci](https://pep8ci.herokuapp.com/#) where a couple of problems showed up.
 
 ### Manual Testing
 

@@ -70,6 +70,9 @@ If a user enters any other letters, the game should not start as it requires a c
 - Invalid escape sequence, these are more warnings from the python validation, complaining about anonomouys backlash in string, which can not be resolved on fixed without breaking the logo.
 ![image](assets/img/escape%20sequence.png)
 
+- When entering a number instead of a letter, it does not reflect that it is a number entered.
+![image](assets/img/Number.png)
+
 ## Technologies
 ### Languages
 - Everything is made out of Python, except the README file

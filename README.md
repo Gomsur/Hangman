@@ -42,7 +42,7 @@ The game ends with either a full stickman which would be a loss, or if the user 
 
 ## Planning stage
 ### Target Audience
-- A game for all ages
+- A game for all ages and genders
 - English speaking/writing users
 - Users who want a nostalgic touch of gaming
 
@@ -59,11 +59,11 @@ The game ends with either a full stickman which would be a loss, or if the user 
 - Give the user a re-playable game
 
 ### Page Layout
-Page is on a mock terminal deployed on [Heroku] and connected through [GitHub]
+Page is on a mock terminal deployed on [Heroku] (https://dashboard.heroku.com/apps) and connected through [GitHub] (https://github.com/)
 The user provides a letter and press enter to submit.
 
 ## Game walkthrough
-- The start of the game is kept simple with instructions on how to choose a word category, logo to catch the attention of the user which was built with [patorjk]
+- The start of the game is kept simple with instructions on how to choose a word category, logo to catch the attention of the user which was built with [patorjk] (https://patorjk.com/)
 
 - The game is asking you to choose between 3 different categories
 - Animals = A
@@ -100,14 +100,14 @@ If a user enters any other letters, the game should not start as it requires a c
 - Everything is made out of Python, except the README file
 
 ### Developing eviroment
-- [GitHub]
-- [Heroku]
+- [GitHub] (https://github.com/)
+- [Heroku] (https://dashboard.heroku.com/apps/gomsur-hangman/deploy/github)
 
 ### Packages 
-- [pep8ci] for code validation & errors
+- [pep8ci] (https://pep8ci.herokuapp.com/#) Used for code validation & errors
 
 ### Other
-- [patrojk] Used for logo design
+- [patrojk] (https://patorjk.com/) Used for logo design
 
 ## Deployment
 - Everything is git pushed as much as possible.
@@ -123,6 +123,6 @@ If a user enters any other letters, the game should not start as it requires a c
 
 ## Credits
 - A big shoutout to a good friend of mine, Fredrik who is a student on Code Institute and have been a good helping hand on this project.
-- A big shoutout to Bethieieio who I took inspiration from for this project [Bethieieio] (https://github.com/Bethieieio/project-three-console-hangman/blob/main/run.py)
+- A big shoutout to Bethieieio who I took inspiration from for this project and took parts of the hangman display from [Bethieieio] (https://github.com/Bethieieio/project-three-console-hangman/blob/main/run.py)
 - A big shoutout to gibbio101 who I got the color inspiration from to my Hangman game [gibbi101] (https://github.com/gibbo101/hangman/blob/main/run.py)
 - A big shoutout to my mentor Antonio for always being there for me whenever I got stuck on parts, providing me with tips and tricks throughout everything.
